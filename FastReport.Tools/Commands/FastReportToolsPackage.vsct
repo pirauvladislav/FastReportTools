@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <Extern href="stdidcmd.h" />
+  <Extern href="vsshlids.h" />
+
+  <Commands package="guidFastReportToolsPackage">
+    <Groups>
+      <Group guid="guidFastReportToolsPackageCmdSet" id="MyMenuGroup" priority="0x0600">
+        <Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_ITEMNODE" />
+      </Group>
+    </Groups>
+
+    <Buttons>
+      <Button guid="guidFastReportToolsPackageCmdSet" id="cmdidOpenFastReportDesigner" priority="0x0100" type="Button">
+        <Parent guid="guidFastReportToolsPackageCmdSet" id="MyMenuGroup" />
+        <Icon guid="guidImages2" id="bmpPic1" />
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <Strings>
+          <ButtonText>Open FastReport Designer</ButtonText>
+        </Strings>
+      </Button>
+      <Button guid="guidFastReportToolsPackageCmdSet" id="ImportDataSetId" priority="0x0100" type="Button">
+        <Parent guid="guidFastReportToolsPackageCmdSet" id="MyMenuGroup" />
+        <Icon guid="guidImages" id="bmpPic1" />
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <Strings>
+          <ButtonText>Import Dictionary from DataSet</ButtonText>
+        </Strings>
+      </Button>
+      <Button guid="guidFastReportToolsPackageCmdSet" id="cmdidGenerateDictionary" priority="0x0100" type="Button">
+        <Parent guid="guidFastReportToolsPackageCmdSet" id="MyMenuGroup" />
+        <Icon guid="guidImages1" id="bmpPic1" />
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <Strings>
+          <ButtonText>Generate FastReport Dictionary</ButtonText>
+        </Strings>
+      </Button>
+    </Buttons>
+
+    <!--The bitmaps section is used to define the bitmaps that are used for the commands.-->
+    <Bitmaps>
+      <Bitmap guid="guidImages" href="Resources\ImportDataSet.png" usedList="bmpPic1, bmpPic2, bmpPicSearch, bmpPicX, bmpPicArrows, bmpPicStrikethrough" />
+      <Bitmap guid="guidImages1" href="Resources\GenerateDictionary.png" usedList="bmpPic1, bmpPic2, bmpPicSearch, bmpPicX, bmpPicArrows, bmpPicStrikethrough" />
+      <Bitmap guid="guidImages2" href="Resources\OpenFastReportDesigner.png" usedList="bmpPic1, bmpPic2, bmpPicSearch, bmpPicX, bmpPicArrows, bmpPicStrikethrough" />
+    </Bitmaps>
+  </Commands>
+
+  <VisibilityConstraints>
+    <VisibilityItem guid="guidFastReportToolsPackageCmdSet" id="ImportDataSetId" context="uiContextSupportedFrxFilesGiud" />
+    <VisibilityItem guid="guidFastReportToolsPackageCmdSet" id="cmdidOpenFastReportDesigner" context="uiContextSupportedFrxFilesGiud" />
+    <VisibilityItem guid="guidFastReportToolsPackageCmdSet" id="cmdidGenerateDictionary" context="uiContextSupportedXsdFilesGiud" />
+  </VisibilityConstraints>
+
+  <Symbols>
+    <!-- This is the package guid. -->
+    <GuidSymbol name="guidFastReportToolsPackage" value="{d8fc6792-b028-43d1-ae1e-a9ed6e6dc2fd}" />
+    <GuidSymbol name="uiContextSupportedFrxFilesGiud" value="{E6AA3BBC-D199-4C76-A8E0-50EE86123DC5}" />
+    <GuidSymbol name="uiContextSupportedXsdFilesGiud" value="{C781A62B-9EBE-4E3A-94DD-20C7FE62EB3C}" />
+    
+    <!-- This is the guid used to group the menu commands together -->
+    <GuidSymbol name="guidFastReportToolsPackageCmdSet" value="{e5109227-5ee7-4bf8-a17b-ce2e1c06bae9}">
+      <IDSymbol name="MyMenuGroup" value="0x1020" />
+      <IDSymbol name="cmdidOpenFastReportDesigner" value="256"/>
+      <IDSymbol name="ImportDataSetId" value="0x0101" />
+      <IDSymbol name="cmdidGenerateDictionary" value="4129" />
+    </GuidSymbol>
+
+    <GuidSymbol name="guidImages" value="{3af94cd3-0c50-4321-a51f-46475a19c882}">
+      <IDSymbol name="bmpPic1" value="1" />
+      <IDSymbol name="bmpPic2" value="2" />
+      <IDSymbol name="bmpPicSearch" value="3" />
+      <IDSymbol name="bmpPicX" value="4" />
+      <IDSymbol name="bmpPicArrows" value="5" />
+      <IDSymbol name="bmpPicStrikethrough" value="6" />
+    </GuidSymbol>
+  
+    <GuidSymbol value="{d64879d4-8c3a-4a01-8ce1-1bcfc161575d}" name="guidImages1">
+      <IDSymbol name="bmpPic1" value="1" />
+      <IDSymbol name="bmpPic2" value="2" />
+      <IDSymbol name="bmpPicSearch" value="3" />
+      <IDSymbol name="bmpPicX" value="4" />
+      <IDSymbol name="bmpPicArrows" value="5" />
+      <IDSymbol name="bmpPicStrikethrough" value="6" />
+    </GuidSymbol>
+  
+    <GuidSymbol value="{0d587513-2215-4fb6-a984-1f2f1c8eb250}" name="guidImages2">
+      <IDSymbol name="bmpPic1" value="1" />
+      <IDSymbol name="bmpPic2" value="2" />
+      <IDSymbol name="bmpPicSearch" value="3" />
+      <IDSymbol name="bmpPicX" value="4" />
+      <IDSymbol name="bmpPicArrows" value="5" />
+      <IDSymbol name="bmpPicStrikethrough" value="6" />
+    </GuidSymbol>
+  </Symbols>
+</CommandTable>

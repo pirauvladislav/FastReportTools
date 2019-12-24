@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastReport.Tools", "FastReport.Tools\FastReport.Tools.csproj", "{A84F5403-2FCD-43C8-BB9B-E80EDF01EF1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A84F5403-2FCD-43C8-BB9B-E80EDF01EF1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A84F5403-2FCD-43C8-BB9B-E80EDF01EF1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A84F5403-2FCD-43C8-BB9B-E80EDF01EF1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A84F5403-2FCD-43C8-BB9B-E80EDF01EF1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30F27B19-2268-4D9B-B4A0-0618EC92A855}
+	EndGlobalSection
+EndGlobal
