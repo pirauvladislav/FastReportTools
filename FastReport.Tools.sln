@@ -5,6 +5,23 @@ VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastReport.Tools", "FastReport.Tools\FastReport.Tools.csproj", "{A84F5403-2FCD-43C8-BB9B-E80EDF01EF1C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{737341C3-0CCB-476A-A9C0-B2C6121D2E8B}"
+	ProjectSection(SolutionItems) = preProject
+		License.md = License.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{F4FB2531-BB4F-45FB-B50C-5FC3F77CC2F0}"
+	ProjectSection(SolutionItems) = preProject
+		Assets\designer.png = Assets\designer.png
+		Assets\generate_fr_dictionaty.png = Assets\generate_fr_dictionaty.png
+		Assets\import_dictionary.png = Assets\import_dictionary.png
+		Assets\open_designer.png = Assets\open_designer.png
+		Assets\save_dictionary.png = Assets\save_dictionary.png
+		Assets\select_datatables.png = Assets\select_datatables.png
+		Assets\settings.png = Assets\settings.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

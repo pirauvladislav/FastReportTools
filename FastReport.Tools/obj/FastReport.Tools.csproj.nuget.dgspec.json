@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\MY\\FastReport.Tools\\FastReport.Tools\\FastReport.Tools.csproj": {}
+    "D:\\Projects\\MY\\FastReport.Tools\\FastReportTools\\FastReport.Tools\\FastReport.Tools.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\MY\\FastReport.Tools\\FastReport.Tools\\FastReport.Tools.csproj": {
+    "D:\\Projects\\MY\\FastReport.Tools\\FastReportTools\\FastReport.Tools\\FastReport.Tools.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\MY\\FastReport.Tools\\FastReport.Tools\\FastReport.Tools.csproj",
+        "projectUniqueName": "D:\\Projects\\MY\\FastReport.Tools\\FastReportTools\\FastReport.Tools\\FastReport.Tools.csproj",
         "projectName": "FastReport.Tools",
-        "projectPath": "D:\\Projects\\MY\\FastReport.Tools\\FastReport.Tools\\FastReport.Tools.csproj",
+        "projectPath": "D:\\Projects\\MY\\FastReport.Tools\\FastReportTools\\FastReport.Tools\\FastReport.Tools.csproj",
         "packagesPath": "C:\\Users\\v.pirau\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\MY\\FastReport.Tools\\FastReport.Tools\\obj\\",
+        "outputPath": "D:\\Projects\\MY\\FastReport.Tools\\FastReportTools\\FastReport.Tools\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [

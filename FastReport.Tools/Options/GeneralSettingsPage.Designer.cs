@@ -48,9 +48,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(3, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(158, 13);
+            this.label1.Size = new System.Drawing.Size(193, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "FastReport Community Designer";
+            this.label1.Text = "FastReport Community Edition Designer";
             // 
             // btBrowse
             // 
@@ -63,14 +63,14 @@
             this.btBrowse.UseVisualStyleBackColor = true;
             this.btBrowse.Click += new System.EventHandler(this.btBrowse_Click);
             // 
-            // GeneralSetingsControl
+            // GeneralSettingsPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.btBrowse);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tbInstallPath);
-            this.Name = "GeneralSetingsControl";
+            this.Name = "GeneralSettingsPage";
             this.Size = new System.Drawing.Size(472, 142);
             this.ResumeLayout(false);
             this.PerformLayout();
