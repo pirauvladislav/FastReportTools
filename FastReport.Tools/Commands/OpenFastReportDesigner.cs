@@ -157,6 +157,7 @@ namespace FastReport.DictionaryExtension.Commands
                  return openFileDialog.FileName;*/
                 var fpakage = this.package as FastReportToolsPackage;
                 fpakage.FastReportToolOptionsDialogPage.DesignerInstallPath = openFileDialog.FileName;
+                fpakage.FastReportToolOptionsDialogPage.SaveSettingsToStorage();
                 return openFileDialog.FileName;
             }
             return string.Empty;

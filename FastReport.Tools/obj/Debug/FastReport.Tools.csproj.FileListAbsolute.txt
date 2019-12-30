@@ -28,6 +28,7 @@ D:\Projects\MY\FastReport.Tools\FastReport.Tools\obj\Debug\FastReport.Tools.late
 D:\Projects\MY\FastReport.Tools\FastReport.Tools\obj\Debug\FastReport.DictionaryExtension.Options.GeneralSettingsPage.resources
 D:\Projects\MY\FastReport.Tools\FastReport.Tools\obj\Debug\FastReportToolsPackage.cto
 D:\Projects\MY\FastReport.Tools\FastReport.Tools\obj\Debug\FastReport.Tools.csprojAssemblyReference.cache
+D:\Projects\MY\FastReport.Tools\FastReportTools\FastReport.Tools\bin\Debug\FastReportTools.png
 D:\Projects\MY\FastReport.Tools\FastReportTools\FastReport.Tools\bin\Debug\FastReport.Tools.dll
 D:\Projects\MY\FastReport.Tools\FastReportTools\FastReport.Tools\bin\Debug\FastReport.Tools.pdb
 D:\Projects\MY\FastReport.Tools\FastReportTools\FastReport.Tools\bin\Debug\FastReport.Tools.pkgdef
@@ -49,6 +50,7 @@ D:\Projects\MY\FastReport.Tools\FastReportTools\FastReport.Tools\obj\Debug\VSCT.
 D:\Projects\MY\FastReport.Tools\FastReportTools\FastReport.Tools\obj\Debug\VSCT.write.1.tlog
 D:\Projects\MY\FastReport.Tools\FastReportTools\FastReport.Tools\obj\Debug\resources.json
 D:\Projects\MY\FastReport.Tools\FastReportTools\FastReport.Tools\obj\Debug\ctoFiles.json
+D:\Projects\MY\FastReport.Tools\FastReportTools\FastReport.Tools\obj\Debug\_EmptyResource.resources.original
 D:\Projects\MY\FastReport.Tools\FastReportTools\FastReport.Tools\obj\Debug\mergeCto.cache
 D:\Projects\MY\FastReport.Tools\FastReportTools\FastReport.Tools\obj\Debug\FastReport.Tools.dll
 D:\Projects\MY\FastReport.Tools\FastReportTools\FastReport.Tools\obj\Debug\FastReport.Tools.pdb

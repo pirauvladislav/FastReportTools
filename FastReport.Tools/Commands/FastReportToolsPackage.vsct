@@ -39,9 +39,9 @@
 
     <!--The bitmaps section is used to define the bitmaps that are used for the commands.-->
     <Bitmaps>
-      <Bitmap guid="guidImages" href="Resources\ImportDataSet.png" usedList="bmpPic1, bmpPic2, bmpPicSearch, bmpPicX, bmpPicArrows, bmpPicStrikethrough" />
-      <Bitmap guid="guidImages1" href="Resources\GenerateDictionary.png" usedList="bmpPic1, bmpPic2, bmpPicSearch, bmpPicX, bmpPicArrows, bmpPicStrikethrough" />
-      <Bitmap guid="guidImages2" href="Resources\OpenFastReportDesigner.png" usedList="bmpPic1, bmpPic2, bmpPicSearch, bmpPicX, bmpPicArrows, bmpPicStrikethrough" />
+      <Bitmap guid="guidImages" href="Resources\ImportDataSet.png" usedList="bmpPic1" />
+      <Bitmap guid="guidImages1" href="Resources\GenerateDictionary.png" usedList="bmpPic1" />
+      <Bitmap guid="guidImages2" href="Resources\OpenFastReportDesigner.png" usedList="bmpPic1" />
     </Bitmaps>
   </Commands>
 

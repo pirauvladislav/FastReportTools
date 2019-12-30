@@ -115,6 +115,10 @@
     <Content Include="Commands\Resources\GenerateDictionary.png" />
     <Content Include="Commands\Resources\ImportDataSet.png" />
     <Content Include="Commands\Resources\OpenFastReportDesigner.png" />
+    <Content Include="FastReportTools.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Page Include="UserControls\DataSetSelector.xaml">

@@ -1,8 +1,10 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
   <Metadata>
-    <Identity Id="FastReport.Tools.3301305c-164b-4480-8e6f-c8db97160b5a" Version="1.2.0" Language="en-US" Publisher="appsbuilder" />
+    <Identity Id="FastReport.Tools.3301305c-164b-4480-8e6f-c8db97160b5a" Version="1.2.1" Language="en-US" Publisher="appsbuilder" />
     <DisplayName>FastReport.Tools</DisplayName>
     <Description xml:space="preserve">A Visual Studio extention for easily working with open source FastReport report generator. It can be used for generate FastReport Dictionary(.frd) from DataSest, Import FastReport Dictionary from a DataSet to an existing Report (.frx), Open Fast Report Community Edition Designer using Solution Explorer context menu.</Description>
+    <Icon>FastReportTools.png</Icon>
+    <Tags>FastReport, Tools , Designer, DataSet, Dictionary, DataSource, Report, Import, Export</Tags>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />

@@ -4,15 +4,15 @@
 library
 C#
 .cs
-D:\Projects\MY\FastReport.Tools\FastReportTools\FastReport.Tools\obj\Debug\
+D:\Projects\MY\FastReport.Tools\FastReportTools\FastReport.Tools\obj\Release\
 FastReport.Tools
 none
 false
-DEBUG;TRACE
+TRACE
 
 2-1119081718
 4-1696400326
-21-497269502
+22-1938825654
 2271743360870
 UserControls\DataSetSelector.xaml;UserControls\DictionaryGenerator.xaml;
 
