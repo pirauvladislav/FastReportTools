@@ -1,5 +1,5 @@
 # FastReport Tools
-A Visual Studio extention for easily working with open source FastReport report generator. It can be used for generate FastReport Dictionary(.frd) from DataSest, Import FastReport Dictionary from a DataSet to an existing Report (.frx), Open Fast Report Community Edition Designer using Solution Explorer context menu.
+A Visual Studio extention for easily working with open source FastReport report generator. It can be used for generate FastReport Dictionary(.frd) from DataSets, Import FastReport Dictionary from a DataSet to an existing Report (.frx), Open Fast Report Community Edition Designer using Solution Explorer context menu.
 
 ### Generate FastReport Dictionary(.frd) from DataSet
 To generate FastReport Dictionaty from a DataSet go to Solution Explorer right clik on DataSet you want an select from context menu "Generate FastReport Dictionary"
